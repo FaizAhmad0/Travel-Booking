@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="payment.js"></script>
+</script>
+</head>
+<body>
+    <form action=""method="post">
+        <div class="container">
+            <div class="container">
+                <div class="card">
+                    <img src="./img/rahul1.jpg"/>    
+                    <div class="textBox">
+                        <h2>Order Summary</h2>    
+                        <p>
+                            Your requested items have been successfully processed. We're preparing your order for package. Thank you for choosing us, and we hope you enjoy your purchase!
+                        </p>
+        
+                    </div>   
+                    
+                    <input type="text" id="amountBox" name="amount" placeholder="Enter the amout to pay...">
+                    <!-- <div id="amountBox">
+                        <div id="leftBox">    
+                            <input type="text" id="amount" name="amount" placeholder="Enter the amout to pay...">
+                        </div>    
+                        
+                    </div>     -->
+                    <button id="paymentButton" onclick="paymentStart()">Proceed to Payment</button>   
+                    <div class="cancelBox">
+                        <a href="#"> Cancel Order</a>
+                    </div>    
+                </div>    
+            </div>
+        </div>
+    </form>
+</body>
+</html>
